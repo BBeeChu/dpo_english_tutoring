@@ -1,0 +1,13 @@
+scikit-learn            
+scipy
+tqdm
+transformers==4.37.2
+datasets
+numpy
+pandas
+accelerate
+torch>=2.0.0
+peft
+bitsandbytes
+sentencepiece
+wandb
