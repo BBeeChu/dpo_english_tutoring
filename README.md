@@ -56,16 +56,6 @@ Key dependencies:
 
 ```
 dpo_english_tutoring/
-├── data/
-│   ├── article-id_mapping.json               # Article ID → passage text
-│   ├── original_direct_train_data.json        # Raw tutoring dialogues (train)
-│   ├── original_direct_dev_data.json          # Raw tutoring dialogues (dev)
-│   ├── sllm_augmented_train_data.json         # Merged SLLM-generated feedback
-│   ├── criteria_dpo_train_feedback_data.json  # DPO training pairs (chosen/rejected)
-│   ├── criteria_dpo_dev_feedback_data.json    # DPO dev pairs
-│   └── criteria_dpo_test_feedback_data.json   # DPO test pairs
-├── sllm_generated_data/
-│   └── *.json                                 # Raw feedback from each SLLM
 ├── results/
 │   └── {model}/dpo/{mode}/seed_{seed}/        # Predictions and evaluation results
 ├── small_llm_feedback_generation.py
